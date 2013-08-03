@@ -1,0 +1,14 @@
+name: SignEdit
+version: 1.6.2_1
+description: Edit sign
+author: hide92795
+depend: [hide92795CoreLib]
+main: hide92795.bukkit.plugin.signedit.SignEdit
+
+commands:
+  signedit:
+    permission: signedit.edit
+    aliases: [se]
+  signedit-reload:
+    permission: signedit.reload
+    aliases: [ser]
